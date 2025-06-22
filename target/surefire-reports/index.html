@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Two_Phase_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Two-Phase Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Two_Phase_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Halju\SYTask\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Two_Phase_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Two_Phase_Test_Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Two_Phase_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Two_Phase_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Two_Phase_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Two_Phase_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Two_Phase_Test_Suite" class="hide-methods failed suite-Two_Phase_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Two_Phase_Test_Suite -->
+                      <a href="#" panel-name="suite-Two_Phase_Test_Suite" class="show-methods failed suite-Two_Phase_Test_Suite"> (show)</a> <!-- show-methods failed suite-Two_Phase_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Two_Phase_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Two_Phase_Test_Suite" title="runners.FinanceRunner" class="method navigator-link" hash-for-method="runScenario(&quot;New Car - Government Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;)">runScenario("New Car - Government Sector Eligibility", "Finance Eligibility Application")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Two_Phase_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Two_Phase_Test_Suite" class="hide-methods passed suite-Two_Phase_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Two_Phase_Test_Suite -->
+                      <a href="#" panel-name="suite-Two_Phase_Test_Suite" class="show-methods passed suite-Two_Phase_Test_Suite"> (show)</a> <!-- show-methods passed suite-Two_Phase_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Two_Phase_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Two_Phase_Test_Suite" title="runners.CareSearchRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Search cars by brand and year range&quot;, &quot;Car Search Functionality&quot;)">runScenario("Search cars by brand and year range", "Car Search Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Two_Phase_Test_Suite" title="runners.FinanceRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Used Car - Private Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;)">runScenario("Used Car - Private Sector Eligibility", "Finance Eligibility Application")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Two_Phase_Test_Suite" title="runners.FinanceRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Used Car - Government Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;)">runScenario("Used Car - Government Sector Eligibility", "Finance Eligibility Application")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Two_Phase_Test_Suite" title="runners.FinanceRunner" class="method navigator-link" hash-for-method="runScenario(&quot;New Car - Private Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;)">runScenario("New Car - Private Sector Eligibility", "Finance Eligibility Application")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Two_Phase_Test_Suite" title="runners.FinanceRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Used Car - Government Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;)">runScenario("Used Car - Government Sector Eligibility", "Finance Eligibility Application")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Two_Phase_Test_Suite" title="runners.FinanceRunner" class="method navigator-link" hash-for-method="runScenario(&quot;New Car - Private Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;)">runScenario("New Car - Private Sector Eligibility", "Finance Eligibility Application")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Two_Phase_Test_Suite" title="runners.FinanceRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Used Car - Private Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;)">runScenario("Used Car - Private Sector Eligibility", "Finance Eligibility Application")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Two_Phase_Test_Suite" title="runners.FinanceRunner" class="method navigator-link" hash-for-method="runScenario(&quot;New Car - Government Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;)">runScenario("New Car - Government Sector Eligibility", "Finance Eligibility Application")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Two_Phase_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Two_Phase_Test_Suite" class="panel Two_Phase_Test_Suite">
+          <div class="suite-Two_Phase_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">runners.FinanceRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;New Car - Government Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;)">
+                  </a> <!-- runScenario("New Car - Government Sector Eligibility", "Finance Eligibility Application") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("New Car - Government Sector Eligibility","Finance Eligibility Application")</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //label[contains(.,&apos;New car&apos;)]//input[@type=&apos;radio&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.finance.FinanceEligibilityPage.robustClick(FinanceEligibilityPage.java:53)
+	at pages.finance.FinanceEligibilityPage.selectCarType(FinanceEligibilityPage.java:117)
+	at steps.FinanceEligibilitySteps.selectCarTypeAndEmploymentSector(FinanceEligibilitySteps.java:35)
+	at ✽.I select car type as &quot;new&quot; and employment sector as &quot;government&quot;(file:///C:/Users/Halju/SYTask/src/test/resources/features/FinanceEligibility.feature:11)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//label[contains(.,&apos;New car&apos;)]//input[@type=&apos;radio&apos;]&quot;}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [def8465acd788cf7ea420782baca88e6, findElement {using=xpath, value=//label[contains(.,&apos;New car&apos;)]//input[@type=&apos;radio&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\Halju\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51165}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51165/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: def8465acd788cf7ea420782baca88e6
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at pages.finance.FinanceEligibilityPage.robustClick(FinanceEligibilityPage.java:53)
+	at pages.finance.FinanceEligibilityPage.selectCarType(FinanceEligibilityPage.java:117)
+	at steps.FinanceEligibilitySteps.selectCarTypeAndEmploymentSector(FinanceEligibilitySteps.java:35)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Two_Phase_Test_Suite-class-failed -->
+          <div class="suite-Two_Phase_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runners.CareSearchRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Search cars by brand and year range&quot;, &quot;Car Search Functionality&quot;)">
+                  </a> <!-- runScenario("Search cars by brand and year range", "Car Search Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Search cars by brand and year range","Car Search Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Two_Phase_Test_Suite-class-passed -->
+          <div class="suite-Two_Phase_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runners.FinanceRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Used Car - Private Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;)">
+                  </a> <!-- runScenario("Used Car - Private Sector Eligibility", "Finance Eligibility Application") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Used Car - Private Sector Eligibility","Finance Eligibility Application")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Used Car - Government Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;)">
+                  </a> <!-- runScenario("Used Car - Government Sector Eligibility", "Finance Eligibility Application") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Used Car - Government Sector Eligibility","Finance Eligibility Application")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;New Car - Private Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;)">
+                  </a> <!-- runScenario("New Car - Private Sector Eligibility", "Finance Eligibility Application") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("New Car - Private Sector Eligibility","Finance Eligibility Application")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Used Car - Government Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;)">
+                  </a> <!-- runScenario("Used Car - Government Sector Eligibility", "Finance Eligibility Application") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Used Car - Government Sector Eligibility","Finance Eligibility Application")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;New Car - Private Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;)">
+                  </a> <!-- runScenario("New Car - Private Sector Eligibility", "Finance Eligibility Application") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("New Car - Private Sector Eligibility","Finance Eligibility Application")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Used Car - Private Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;)">
+                  </a> <!-- runScenario("Used Car - Private Sector Eligibility", "Finance Eligibility Application") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Used Car - Private Sector Eligibility","Finance Eligibility Application")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;New Car - Government Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;)">
+                  </a> <!-- runScenario("New Car - Government Sector Eligibility", "Finance Eligibility Application") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("New Car - Government Sector Eligibility","Finance Eligibility Application")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Two_Phase_Test_Suite-class-passed -->
+        </div> <!-- panel Two_Phase_Test_Suite -->
+        <div panel-name="test-xml-Two_Phase_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Halju\SYTask\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;methods&quot; data-provider-thread-count=&quot;2&quot; name=&quot;Two-Phase Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.TestNGConfigListener&quot;/&gt;
+    &lt;listener class-name=&quot;utils.WebDriverCleanupListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;Phase 1 - Care Search&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runners.CareSearchRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Phase 1 - Care Search --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;methods&quot; name=&quot;Phase 2 - Finance Scenarios&quot; verbose=&quot;0&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runners.FinanceRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Phase 2 - Finance Scenarios --&gt;
+&lt;/suite&gt; &lt;!-- Two-Phase Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Two_Phase_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Two-Phase Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Phase 1 - Care Search (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Phase 2 - Finance Scenarios (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Two_Phase_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Two-Phase Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Two_Phase_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Two-Phase Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Two_Phase_Test_Suite');
+function tableData_Two_Phase_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'runners.FinanceRunner')
+data.setCell(0, 3, 47483);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'runners.FinanceRunner')
+data.setCell(1, 3, 46771);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'runners.FinanceRunner')
+data.setCell(2, 3, 37844);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'runners.FinanceRunner')
+data.setCell(3, 3, 36902);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'runners.FinanceRunner')
+data.setCell(4, 3, 35907);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'runners.FinanceRunner')
+data.setCell(5, 3, 35165);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'runners.FinanceRunner')
+data.setCell(6, 3, 33749);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'runners.FinanceRunner')
+data.setCell(7, 3, 32427);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'runners.CareSearchRunner')
+data.setCell(8, 3, 21706);
+window.suiteTableData['Two_Phase_Test_Suite']= { tableData: data, tableDiv: 'times-div-Two_Phase_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Two_Phase_Test_Suite">
+              </div> <!-- times-div-Two_Phase_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Two_Phase_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Two-Phase Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Two_Phase_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Two_Phase_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">runners.CareSearchRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@17a7f733)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Search cars by brand and year range", "Car Search Functionality")</span>
+                <span class="method-start">1006 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">22976 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">runners.FinanceRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@68567e20)</span>
+                <span class="method-start">23340 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("New Car - Government Sector Eligibility", "Finance Eligibility Application")</span>
+                <span class="method-start">23373 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("New Car - Government Sector Eligibility", "Finance Eligibility Application")</span>
+                <span class="method-start">23373 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("New Car - Private Sector Eligibility", "Finance Eligibility Application")</span>
+                <span class="method-start">60550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("New Car - Private Sector Eligibility", "Finance Eligibility Application")</span>
+                <span class="method-start">61467 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Used Car - Government Sector Eligibility", "Finance Eligibility Application")</span>
+                <span class="method-start">107514 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Used Car - Government Sector Eligibility", "Finance Eligibility Application")</span>
+                <span class="method-start">109182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Used Car - Private Sector Eligibility", "Finance Eligibility Application")</span>
+                <span class="method-start">140198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Used Car - Private Sector Eligibility", "Finance Eligibility Application")</span>
+                <span class="method-start">143152 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">178513 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="179.164" tests="9" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Halju\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Halju\SYTask\target\test-classes;C:\Users\Halju\SYTask\target\classes;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-java\4.22.0\selenium-java-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.22.0\selenium-chrome-driver-4.22.0.jar;C:\Users\Halju\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.22.0\selenium-chromium-driver-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.22.0\selenium-devtools-v124-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.22.0\selenium-devtools-v125-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.22.0\selenium-devtools-v126-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.22.0\selenium-edge-driver-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;C:\Users\Halju\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.22.0\selenium-ie-driver-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;C:\Users\Halju\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Halju\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Halju\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Halju\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Halju\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Halju\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;C:\Users\Halju\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;C:\Users\Halju\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.22.0\selenium-safari-driver-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;C:\Users\Halju\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.1\webdrivermanager-5.9.1.jar;C:\Users\Halju\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\Halju\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Halju\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\Halju\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\Halju\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\Halju\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\Halju\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Halju\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Halju\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Halju\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Halju\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\Halju\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\Halju\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Halju\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Halju\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Halju\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\Halju\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Halju\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Halju\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Halju\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\Halju\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Halju\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Halju\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Halju\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Halju\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Halju\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Halju\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\Halju\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Halju\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Halju\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Halju\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Halju\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Halju\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Halju\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Halju\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Halju\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Halju\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Halju\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Halju\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Halju\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Halju\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Halju\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Halju\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Halju\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\Halju\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\Halju\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\Halju\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\Halju\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\Halju\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\Halju\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\Halju\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Halju\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\Halju\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\Halju\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\Halju\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\Halju\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\Halju\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\Halju\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\Halju\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\Halju\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\Halju\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Halju\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Halju\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Halju\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Halju\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\Halju\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\Halju\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Amman"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Halju\AppData\Local\Temp\surefire7668390144377753050\surefirebooter-20250622131055443_3.jar C:\Users\Halju\AppData\Local\Temp\surefire7668390144377753050 2025-06-22T13-10-55_242-jvmRun1 surefire-20250622131055443_1tmp surefire_0-20250622131055443_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Halju\SYTask\target\test-classes;C:\Users\Halju\SYTask\target\classes;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-java\4.22.0\selenium-java-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.22.0\selenium-chrome-driver-4.22.0.jar;C:\Users\Halju\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.22.0\selenium-chromium-driver-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.22.0\selenium-devtools-v124-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.22.0\selenium-devtools-v125-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.22.0\selenium-devtools-v126-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.22.0\selenium-edge-driver-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;C:\Users\Halju\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.22.0\selenium-ie-driver-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;C:\Users\Halju\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Halju\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Halju\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Halju\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Halju\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Halju\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;C:\Users\Halju\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;C:\Users\Halju\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;C:\Users\Halju\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.22.0\selenium-safari-driver-4.22.0.jar;C:\Users\Halju\.m2\repository\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;C:\Users\Halju\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.1\webdrivermanager-5.9.1.jar;C:\Users\Halju\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\Halju\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Halju\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\Halju\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\Halju\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\Halju\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\Halju\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Halju\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Halju\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Halju\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Halju\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\Halju\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\Halju\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Halju\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Halju\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Halju\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\Halju\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Halju\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Halju\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Halju\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\Halju\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Halju\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Halju\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Halju\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Halju\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Halju\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Halju\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Halju\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\Halju\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Halju\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Halju\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Halju\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Halju\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Halju\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Halju\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Halju\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Halju\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Halju\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Halju\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Halju\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Halju\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Halju\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Halju\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Halju\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Halju\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\Halju\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\Halju\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\Halju\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\Halju\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\Halju\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\Halju\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\Halju\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Halju\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\Halju\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\Halju\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\Halju\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\Halju\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\Halju\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\Halju\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\Halju\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\Halju\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\Halju\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Halju\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Halju\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Halju\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Halju\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\Halju\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\Halju\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Halju"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk-17.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Halju\SYTask"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="extent.reporter.spark.start" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\Halju\AppData\Local\Temp\surefire7668390144377753050\surefirebooter-20250622131055443_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-86"/>
+    <property name="user.name" value="Halju"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="extent.reporter.spark.out" value="target/extent-report/ExtentSpark.html"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Halju\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Halju\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\Halju\SYTask"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="extent.reporter.spark.config" value="src/test/resources/extent-config.xml"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Halju\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Mozilla Firefox;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\USERNAME\AppData\Local\Android\sdk\platform-tools;C:\Program Files (x86)\Java\jdk-17.0.2;C:\Users\Halju\.appium\node_modules\appium-uiautomator2-driver\bundletool.jar;C:\Users\Halju\AppData\Local\Android\Sdk\cmdline-tools\latest\bin\;C:\Users\Halju\AppData\Local\Android\Sdk\emulator\;C:\Program Files\Apache\Maven\bin;C:\Program Files\DDEV;C:\Program Files\Docker\Docker\resources\bin;c:\Users\Halju\AppData\Local\Programs\Trae\bin;C:\Users\Halju\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;C:\Users\Halju\AppData\Local\M;c:\Users\Halju\AppData\Local\Programs\Trae\bin;C:\Users\Halju\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;C:\Users\Halju\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Halju\AppData\Roaming\npm;C:\Users\Halju\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin;;C:\Users\Halju\AppData\Local\Android\Sdk\platform-tools;C:\Users\Halju\AppData\Local\Android\Sdk\tools\bin;C:\Users\Halju\AppData\Local\Android\Sdk\tools;C:\Users\Halju\AppData\Local\Android\Sdk\emulator;C:\Users\Halju\AppData\Local\Android\Sdk\platform-tools;C:\Users\Halju\.appium\node_modules\appium-uiautomator2-driver\bundletool.jar;C:\Users\Halju\AppData\Local\Programs\cursor\resources\app\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Search cars by brand and year range&quot;, &quot;Car Search Functionality&quot;](1)" classname="runners.CareSearchRunner" time="21.955">
+    <system-out><![CDATA[>> TestNGConfigListener: Set parallel mode to 'methods' with thread count of 2. <<
+>> TestNGConfigListener: Extent Report properties have been set. <<
+>> WebDriverCleanupListener: Test context starting: Phase 1 - Care Search <<
+Custom CSS loaded for Extent Report
+>> ExtentReportListener: Test run started <<
+>> WebDriverCleanupListener: Test starting: runScenario <<
+
+@care @SYT-CS-BRAND-YEAR @search @care
+Scenario Outline: Search cars by brand and year range  # src/test/resources/features/care_search.feature:17
+>> ExtentReportListener: Started scenario: Search cars by brand and year range <<
+****** [DriverManager] Thread 18: Creating new WebDriver instance. ******
+Starting Care Search scenario...
+  Given I open the car search page                     # steps.CareSearchSteps.i_open_the_car_search_page()
+  When I select Toyota as the brand                    # steps.CareSearchSteps.i_select_toyota_as_the_brand()
+  And I set the year range from "2022" to "2025"       # steps.CareSearchSteps.i_set_the_year_range_from_to(java.lang.String,java.lang.String)
+✓ Care Search completed
+  Then the search results should be filtered correctly # steps.CareSearchSteps.the_search_results_should_be_filtered_correctly()
+Care Search scenario completed: Search cars by brand and year range
+>> ExtentReportListener: Finished scenario: Search cars by brand and year range <<
+>> WebDriverCleanupListener: Test passed: runScenario <<
+>> WebDriverCleanupListener: WebDriver cleaned up for thread 18 <<
+]]></system-out>
+    <system-err><![CDATA[[TestNG-test=Phase 1 - Care Search-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+[TestNG-test=Phase 1 - Care Search-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Halju\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+Jun 22, 2025 1:10:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 22, 2025 1:10:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.120. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;New Car - Government Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;](1)" classname="runners.FinanceRunner" time="37.173">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: //label[contains(.,&apos;New car&apos;)]//input[@type=&apos;radio&apos;] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //label[contains(.,'New car')]//input[@type='radio'] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.finance.FinanceEligibilityPage.robustClick(FinanceEligibilityPage.java:53)
+	at pages.finance.FinanceEligibilityPage.selectCarType(FinanceEligibilityPage.java:117)
+	at steps.FinanceEligibilitySteps.selectCarTypeAndEmploymentSector(FinanceEligibilitySteps.java:35)
+	at ✽.I select car type as "new" and employment sector as "government"(file:///C:/Users/Halju/SYTask/src/test/resources/features/FinanceEligibility.feature:11)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(.,'New car')]//input[@type='radio']"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [def8465acd788cf7ea420782baca88e6, findElement {using=xpath, value=//label[contains(.,'New car')]//input[@type='radio']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\Halju\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51165}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51165/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: def8465acd788cf7ea420782baca88e6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at pages.finance.FinanceEligibilityPage.robustClick(FinanceEligibilityPage.java:53)
+	at pages.finance.FinanceEligibilityPage.selectCarType(FinanceEligibilityPage.java:117)
+	at steps.FinanceEligibilitySteps.selectCarTypeAndEmploymentSector(FinanceEligibilitySteps.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[>> ExtentReportListener: Test run finished, report generated <<
+>> WebDriverCleanupListener: Test context finished: Phase 1 - Care Search <<
+>> WebDriverCleanupListener: WebDriver cleaned up for thread 1 <<
+>> WebDriverCleanupListener: Test context starting: Phase 2 - Finance Scenarios <<
+>> ExtentReportListener: Test run started <<
+>> WebDriverCleanupListener: Test starting: runScenario <<
+>> WebDriverCleanupListener: Test starting: runScenario <<
+
+@finance @SYT-NC-GOV @finance
+Scenario Outline: New Car - Government Sector Eligibility                                                                    # src/test/resources/features/FinanceEligibility.feature:21
+>> ExtentReportListener: Started scenario: New Car - Government Sector Eligibility <<
+
+@finance @SYT-NC-GOV @finance
+Scenario Outline: New Car - Government Sector Eligibility                                                                     # src/test/resources/features/FinanceEligibility.feature:20
+>> ExtentReportListener: Started scenario: New Car - Government Sector Eligibility <<
+****** [DriverManager] Thread 41: Creating new WebDriver instance. ******
+****** [DriverManager] Thread 40: Creating new WebDriver instance. ******
+Starting Finance scenario: New Car - Government Sector Eligibility
+Starting Finance scenario: New Car - Government Sector Eligibility
+  Given I open the finance eligibility form page                                                                             # steps.FinanceEligibilitySteps.openFormPage()
+Click successful and verified on: By.xpath: //label[contains(.,'New car')]//input[@type='radio']
+  Given I open the finance eligibility form page                                                                              # steps.FinanceEligibilitySteps.openFormPage()
+Click successful and verified on: By.xpath: //label[contains(.,'Government sector')]//input[@type='radio']
+  When I select car type as "new" and employment sector as "government"                                                      # steps.FinanceEligibilitySteps.selectCarTypeAndEmploymentSector(java.lang.String,java.lang.String)
+Exception during click attempt 1 for By.xpath: //label[contains(.,'New car')]//input[@type='radio']: Expected condition failed: waiting for presence of element located by: By.xpath: //label[contains(.,'New car')]//input[@type='radio'] (tried for 10 second(s) with 500 milliseconds interval)
+Found 'Continue' button. Attempting robust click.
+Click successful and verified on: By.xpath: //button[contains(text(), 'Continue')]
+  And I enter monthly income as "5000"                                                                                       # steps.FinanceEligibilitySteps.enterIncome(java.lang.String)
+Info: Progress bar value did not increase from 75. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //label[contains(.,'Yes, I have commitments')]//input
+Found 'Verify' button. Attempting robust click.
+Info: Progress bar value did not increase from 75. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //button[contains(text(), 'Verify')]
+Found 'Verify' button. Attempting robust click.
+Exception during click attempt 2 for By.xpath: //label[contains(.,'New car')]//input[@type='radio']: Expected condition failed: waiting for presence of element located by: By.xpath: //label[contains(.,'New car')]//input[@type='radio'] (tried for 10 second(s) with 500 milliseconds interval)
+Info: Progress bar value did not increase from 50. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //button[contains(text(), 'Verify')]
+  And I set financial obligations to "yes" with amount "3000"                                                                # steps.FinanceEligibilitySteps.setObligations(java.lang.String,java.lang.String)
+  And I enter phone number as "0511111111"                                                                                   # steps.FinanceEligibilitySteps.iEnterPhoneNumberAs(java.lang.String)
+Info: Progress bar value did not increase from 50. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //button[contains(.,'Start now')]
+  And I click on Start Now button                                                                                            # steps.FinanceEligibilitySteps.iClickOnStartNowButton()
+  And I enter OTP as "123456"                                                                                                # steps.FinanceEligibilitySteps.iEnterOTPAs(java.lang.String)
+Exception during click attempt 3 for By.xpath: //label[contains(.,'New car')]//input[@type='radio']: Expected condition failed: waiting for presence of element located by: By.xpath: //label[contains(.,'New car')]//input[@type='radio'] (tried for 10 second(s) with 500 milliseconds interval)
+  When I select car type as "new" and employment sector as "government"                                                       # steps.FinanceEligibilitySteps.selectCarTypeAndEmploymentSector(java.lang.String,java.lang.String)
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //label[contains(.,'New car')]//input[@type='radio'] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.finance.FinanceEligibilityPage.robustClick(FinanceEligibilityPage.java:53)
+	at pages.finance.FinanceEligibilityPage.selectCarType(FinanceEligibilityPage.java:117)
+	at steps.FinanceEligibilitySteps.selectCarTypeAndEmploymentSector(FinanceEligibilitySteps.java:35)
+	at âœ½.I select car type as "new" and employment sector as "government"(file:///C:/Users/Halju/SYTask/src/test/resources/features/FinanceEligibility.feature:11)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(.,'New car')]//input[@type='radio']"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [def8465acd788cf7ea420782baca88e6, findElement {using=xpath, value=//label[contains(.,'New car')]//input[@type='radio']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\Halju\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51165}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51165/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: def8465acd788cf7ea420782baca88e6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at pages.finance.FinanceEligibilityPage.robustClick(FinanceEligibilityPage.java:53)
+	at pages.finance.FinanceEligibilityPage.selectCarType(FinanceEligibilityPage.java:117)
+	at steps.FinanceEligibilitySteps.selectCarTypeAndEmploymentSector(FinanceEligibilitySteps.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Screenshot taken and added to report: target/extent-report/screenshots/New_Car___Government_Sector_Eligibility_1750587116036.png
+  And I enter monthly income as "15000"                                                                                       # steps.FinanceEligibilitySteps.enterIncome(java.lang.String)
+  And I set financial obligations to "no" with amount "0"                                                                     # steps.FinanceEligibilitySteps.setObligations(java.lang.String,java.lang.String)
+  And I enter phone number as "0511111111"                                                                                    # steps.FinanceEligibilitySteps.iEnterPhoneNumberAs(java.lang.String)
+  And I click on Start Now button                                                                                             # steps.FinanceEligibilitySteps.iClickOnStartNowButton()
+  And I enter OTP as "123456"                                                                                                 # steps.FinanceEligibilitySteps.iEnterOTPAs(java.lang.String)
+  Then the eligibility status title should be "You are eligible for financing!" and URL path should be "/finance-eligibility" # steps.FinanceEligibilitySteps.theEligibilityStatusTitleShouldBeAndURLPathShouldBe(java.lang.String,java.lang.String)
+Finance scenario completed: New Car - Government Sector Eligibility
+
+    Embedding Screenshot [image/png 179320 bytes]
+
+Screenshot saved: target/extent-report/screenshots/finance_New_Car___Government_Sector_Eligibility_1750587116226.png
+
+    Embedding Screenshot [image/png 179320 bytes]
+
+Screenshot saved: target/extent-report/screenshots/general_New_Car___Government_Sector_Eligibility_1750587116362.png
+Screenshot added to report: general_New_Car___Government_Sector_Eligibility_1750587116362.png
+>> ExtentReportListener: Finished scenario: New Car - Government Sector Eligibility <<
+>> WebDriverCleanupListener: Test failed: runScenario <<
+>> WebDriverCleanupListener: WebDriver cleaned up for thread 40 <<
+]]></system-out>
+    <system-err><![CDATA[[TestNG-PoolService-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+[TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+[TestNG-PoolService-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Halju\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+[TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Halju\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+Jun 22, 2025 1:11:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 22, 2025 1:11:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.120. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jun 22, 2025 1:11:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 22, 2025 1:11:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.120. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Failed to click element after 3 attempts: By.xpath: //label[contains(.,'New car')]//input[@type='radio']
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;New Car - Government Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;](2)" classname="runners.FinanceRunner" time="0.917">
+    <system-out><![CDATA[>> WebDriverCleanupListener: Test starting: runScenario <<
+
+@finance @SYT-NC-PVT @finance
+Scenario Outline: New Car - Private Sector Eligibility                                                                        # src/test/resources/features/FinanceEligibility.feature:37
+>> ExtentReportListener: Started scenario: New Car - Private Sector Eligibility <<
+****** [DriverManager] Thread 40: Creating new WebDriver instance. ******
+Actrual tiltle:: You may not be eligible for financing
+  Then the eligibility status title should be "You may not be eligible for financing" and URL path should be "/disqualified" # steps.FinanceEligibilitySteps.theEligibilityStatusTitleShouldBeAndURLPathShouldBe(java.lang.String,java.lang.String)
+Finance scenario completed: New Car - Government Sector Eligibility
+>> ExtentReportListener: Finished scenario: New Car - Government Sector Eligibility <<
+>> WebDriverCleanupListener: Test passed: runScenario <<
+Starting Finance scenario: New Car - Private Sector Eligibility
+>> WebDriverCleanupListener: WebDriver cleaned up for thread 41 <<
+]]></system-out>
+    <system-err><![CDATA[[TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+[TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Halju\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+Jun 22, 2025 1:11:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 22, 2025 1:11:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.120. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;New Car - Private Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;](3)" classname="runners.FinanceRunner" time="46.044">
+    <system-out><![CDATA[>> WebDriverCleanupListener: Test starting: runScenario <<
+
+@finance @SYT-NC-PVT @finance
+Scenario Outline: New Car - Private Sector Eligibility                                                                        # src/test/resources/features/FinanceEligibility.feature:38
+>> ExtentReportListener: Started scenario: New Car - Private Sector Eligibility <<
+****** [DriverManager] Thread 41: Creating new WebDriver instance. ******
+  Given I open the finance eligibility form page                                                                              # steps.FinanceEligibilitySteps.openFormPage()
+Starting Finance scenario: New Car - Private Sector Eligibility
+  Given I open the finance eligibility form page                                                                              # steps.FinanceEligibilitySteps.openFormPage()
+Click successful and verified on: By.xpath: //label[contains(.,'New car')]//input[@type='radio']
+Click successful and verified on: By.xpath: //label[contains(.,'Private sector')]//input[@type='radio']
+  When I select car type as "new" and employment sector as "private"                                                          # steps.FinanceEligibilitySteps.selectCarTypeAndEmploymentSector(java.lang.String,java.lang.String)
+Click successful and verified on: By.xpath: //label[contains(.,'New car')]//input[@type='radio']
+Click successful and verified on: By.xpath: //label[contains(@class, 'flex gap-3') and .//input[@value='true'] and contains(., 'Yes')]
+Click successful and verified on: By.xpath: //label[contains(.,'Private sector')]//input[@type='radio']
+  When I select car type as "new" and employment sector as "private"                                                          # steps.FinanceEligibilitySteps.selectCarTypeAndEmploymentSector(java.lang.String,java.lang.String)
+  And I set salary bank account to "yes"                                                                                      # steps.FinanceEligibilitySteps.setBankAccount(java.lang.String)
+Click successful and verified on: By.xpath: //label[contains(@class, 'flex gap-3') and .//input[@value='false'] and contains(., 'No')]
+Click successful and verified on: By.cssSelector: #root > div:nth-child(3) > form > div > div.isLoaded.MainContainerLO > main > div > div > div.transition-all.duration-700.ease-in-out.transform.translate-y-0.opacity-100 > div > div > div > div > div.bg-white.rounded-lg.border.border-solid.border-gray-azureish.py-6.px-4.flex.flex-col.gap-8.lg\:border-0.lg\:p-0 > div.flex.flex-col.gap-3 > div > label:nth-child(1)
+  And I set salary bank account to "no"                                                                                       # steps.FinanceEligibilitySteps.setBankAccount(java.lang.String)
+  And I set job tenure to "yes"                                                                                               # steps.FinanceEligibilitySteps.setJobTenure(java.lang.String)
+Click successful and verified on: By.cssSelector: #root > div:nth-child(3) > form > div > div.isLoaded.MainContainerLO > main > div > div > div.transition-all.duration-700.ease-in-out.transform.translate-y-0.opacity-100 > div > div > div > div > div.bg-white.rounded-lg.border.border-solid.border-gray-azureish.py-6.px-4.flex.flex-col.gap-8.lg\:border-0.lg\:p-0 > div.flex.flex-col.gap-3 > div > label:nth-child(2)
+Click successful and verified on: By.xpath: //label[.//input[@value='true'] and contains(., 'Yes')]
+  And I set job tenure to "no"                                                                                                # steps.FinanceEligibilitySteps.setJobTenure(java.lang.String)
+  And I set social insurance (3+ months) to "yes"                                                                             # steps.FinanceEligibilitySteps.setSocialInsurance(java.lang.String)
+Click successful and verified on: By.xpath: //label[.//input[@value='true'] and contains(., 'Yes')]
+  And I set social insurance (3+ months) to "yes"                                                                             # steps.FinanceEligibilitySteps.setSocialInsurance(java.lang.String)
+Found 'Continue' button. Attempting robust click.
+Click successful and verified on: By.xpath: //button[contains(text(), 'Continue')]
+  And I enter monthly income as "15000"                                                                                       # steps.FinanceEligibilitySteps.enterIncome(java.lang.String)
+Found 'Continue' button. Attempting robust click.
+Click successful and verified on: By.xpath: //button[contains(text(), 'Continue')]
+  And I enter monthly income as "15000"                                                                                       # steps.FinanceEligibilitySteps.enterIncome(java.lang.String)
+Info: Progress bar value did not increase from 70. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //label[contains(.,'No commitments')]//input
+Info: Progress bar value did not increase from 70. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //label[contains(.,'No commitments')]//input
+Found 'Continue' button. Attempting robust click.
+Found 'Continue' button. Attempting robust click.
+Info: Progress bar value did not increase from 70. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //button[contains(text(), 'Continue')]
+  And I set financial obligations to "no" with amount "0"                                                                     # steps.FinanceEligibilitySteps.setObligations(java.lang.String,java.lang.String)
+  And I enter phone number as "0511111111"                                                                                    # steps.FinanceEligibilitySteps.iEnterPhoneNumberAs(java.lang.String)
+Info: Progress bar value did not increase from 70. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //button[contains(text(), 'Continue')]
+  And I set financial obligations to "no" with amount "0"                                                                     # steps.FinanceEligibilitySteps.setObligations(java.lang.String,java.lang.String)
+  And I enter phone number as "0511111111"                                                                                    # steps.FinanceEligibilitySteps.iEnterPhoneNumberAs(java.lang.String)
+Info: Progress bar value did not increase from 70. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //button[contains(.,'Start now')]
+  And I click on Start Now button                                                                                             # steps.FinanceEligibilitySteps.iClickOnStartNowButton()
+  And I enter OTP as "123456"                                                                                                 # steps.FinanceEligibilitySteps.iEnterOTPAs(java.lang.String)
+Info: Progress bar value did not increase from 70. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //button[contains(.,'Start now')]
+  And I click on Start Now button                                                                                             # steps.FinanceEligibilitySteps.iClickOnStartNowButton()
+  And I enter OTP as "123456"                                                                                                 # steps.FinanceEligibilitySteps.iEnterOTPAs(java.lang.String)
+Actrual tiltle:: You are eligible for financing!
+  Then the eligibility status title should be "You are eligible for financing!" and URL path should be "/finance-eligibility" # steps.FinanceEligibilitySteps.theEligibilityStatusTitleShouldBeAndURLPathShouldBe(java.lang.String,java.lang.String)
+Finance scenario completed: New Car - Private Sector Eligibility
+>> ExtentReportListener: Finished scenario: New Car - Private Sector Eligibility <<
+>> WebDriverCleanupListener: Test passed: runScenario <<
+>> WebDriverCleanupListener: WebDriver cleaned up for thread 40 <<
+]]></system-out>
+    <system-err><![CDATA[[TestNG-PoolService-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+[TestNG-PoolService-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Halju\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+Jun 22, 2025 1:11:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 22, 2025 1:11:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.120. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;New Car - Private Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;](4)" classname="runners.FinanceRunner" time="1.668">
+    <system-out><![CDATA[>> WebDriverCleanupListener: Test starting: runScenario <<
+
+@finance @SYT-UC-GOV @finance
+Scenario Outline: Used Car - Government Sector Eligibility                                                                    # src/test/resources/features/FinanceEligibility.feature:51
+>> ExtentReportListener: Started scenario: Used Car - Government Sector Eligibility <<
+****** [DriverManager] Thread 40: Creating new WebDriver instance. ******
+Starting Finance scenario: Used Car - Government Sector Eligibility
+Actrual tiltle:: You are eligible for financing!
+  Then the eligibility status title should be "You are eligible for financing!" and URL path should be "/finance-eligibility" # steps.FinanceEligibilitySteps.theEligibilityStatusTitleShouldBeAndURLPathShouldBe(java.lang.String,java.lang.String)
+Finance scenario completed: New Car - Private Sector Eligibility
+>> ExtentReportListener: Finished scenario: New Car - Private Sector Eligibility <<
+>> WebDriverCleanupListener: Test passed: runScenario <<
+>> WebDriverCleanupListener: WebDriver cleaned up for thread 41 <<
+]]></system-out>
+    <system-err><![CDATA[[TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+[TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Halju\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+Jun 22, 2025 1:12:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 22, 2025 1:12:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.120. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Used Car - Government Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;](5)" classname="runners.FinanceRunner" time="31.017">
+    <system-out><![CDATA[>> WebDriverCleanupListener: Test starting: runScenario <<
+
+@finance @SYT-UC-GOV @finance
+Scenario Outline: Used Car - Government Sector Eligibility                                                                   # src/test/resources/features/FinanceEligibility.feature:52
+>> ExtentReportListener: Started scenario: Used Car - Government Sector Eligibility <<
+****** [DriverManager] Thread 41: Creating new WebDriver instance. ******
+Starting Finance scenario: Used Car - Government Sector Eligibility
+  Given I open the finance eligibility form page                                                                              # steps.FinanceEligibilitySteps.openFormPage()
+Click successful and verified on: By.xpath: //label[contains(.,'Used car')]//input[@type='radio']
+  Given I open the finance eligibility form page                                                                             # steps.FinanceEligibilitySteps.openFormPage()
+Click successful and verified on: By.xpath: //label[contains(.,'Government sector')]//input[@type='radio']
+  When I select car type as "used" and employment sector as "government"                                                      # steps.FinanceEligibilitySteps.selectCarTypeAndEmploymentSector(java.lang.String,java.lang.String)
+Click successful and verified on: By.xpath: //label[contains(.,'Used car')]//input[@type='radio']
+Click successful and verified on: By.xpath: //label[contains(.,'Government sector')]//input[@type='radio']
+  When I select car type as "used" and employment sector as "government"                                                     # steps.FinanceEligibilitySteps.selectCarTypeAndEmploymentSector(java.lang.String,java.lang.String)
+Found 'Continue' button. Attempting robust click.
+Click successful and verified on: By.xpath: //button[contains(text(), 'Continue')]
+  And I enter monthly income as "12000"                                                                                       # steps.FinanceEligibilitySteps.enterIncome(java.lang.String)
+Found 'Continue' button. Attempting robust click.
+Click successful and verified on: By.xpath: //button[contains(text(), 'Continue')]
+  And I enter monthly income as "4000"                                                                                       # steps.FinanceEligibilitySteps.enterIncome(java.lang.String)
+Info: Progress bar value did not increase from 40. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //label[contains(.,'No commitments')]//input
+Found 'Verify' button. Attempting robust click.
+Info: Progress bar value did not increase from 40. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //label[contains(.,'Yes, I have commitments')]//input
+Found 'Verify' button. Attempting robust click.
+Click successful and verified on: By.xpath: //button[contains(text(), 'Verify')]
+Found 'Verify' button. Attempting robust click.
+Info: Progress bar value did not increase from 40. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //button[contains(text(), 'Verify')]
+  And I set financial obligations to "no" with amount "0"                                                                     # steps.FinanceEligibilitySteps.setObligations(java.lang.String,java.lang.String)
+  And I enter phone number as "0511111111"                                                                                    # steps.FinanceEligibilitySteps.iEnterPhoneNumberAs(java.lang.String)
+Info: Progress bar value did not increase from 90. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //button[contains(text(), 'Verify')]
+  And I set financial obligations to "yes" with amount "2000"                                                                # steps.FinanceEligibilitySteps.setObligations(java.lang.String,java.lang.String)
+  And I enter phone number as "0511111111"                                                                                   # steps.FinanceEligibilitySteps.iEnterPhoneNumberAs(java.lang.String)
+Info: Progress bar value did not increase from 40. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //button[contains(.,'Start now')]
+  And I click on Start Now button                                                                                             # steps.FinanceEligibilitySteps.iClickOnStartNowButton()
+  And I enter OTP as "123456"                                                                                                 # steps.FinanceEligibilitySteps.iEnterOTPAs(java.lang.String)
+Info: Progress bar value did not increase from 90. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //button[contains(.,'Start now')]
+  And I click on Start Now button                                                                                            # steps.FinanceEligibilitySteps.iClickOnStartNowButton()
+  And I enter OTP as "123456"                                                                                                # steps.FinanceEligibilitySteps.iEnterOTPAs(java.lang.String)
+Actrual tiltle:: You are eligible for financing!
+  Then the eligibility status title should be "You are eligible for financing!" and URL path should be "/finance-eligibility" # steps.FinanceEligibilitySteps.theEligibilityStatusTitleShouldBeAndURLPathShouldBe(java.lang.String,java.lang.String)
+Finance scenario completed: Used Car - Government Sector Eligibility
+>> ExtentReportListener: Finished scenario: Used Car - Government Sector Eligibility <<
+>> WebDriverCleanupListener: Test passed: runScenario <<
+>> WebDriverCleanupListener: WebDriver cleaned up for thread 40 <<
+]]></system-out>
+    <system-err><![CDATA[[TestNG-PoolService-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+[TestNG-PoolService-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Halju\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+Jun 22, 2025 1:12:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 22, 2025 1:12:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.120. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Used Car - Government Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;](6)" classname="runners.FinanceRunner" time="2.952">
+    <system-out><![CDATA[>> WebDriverCleanupListener: Test starting: runScenario <<
+
+@finance @SYT-UC-PVT @finance
+Scenario Outline: Used Car - Private Sector Eligibility                                                                       # src/test/resources/features/FinanceEligibility.feature:66
+>> ExtentReportListener: Started scenario: Used Car - Private Sector Eligibility <<
+****** [DriverManager] Thread 40: Creating new WebDriver instance. ******
+Starting Finance scenario: Used Car - Private Sector Eligibility
+  Given I open the finance eligibility form page                                                                              # steps.FinanceEligibilitySteps.openFormPage()
+Actrual tiltle:: You may not be eligible for financing
+  Then the eligibility status title should be "You may not be eligible for financing" and URL path should be "/disqualified" # steps.FinanceEligibilitySteps.theEligibilityStatusTitleShouldBeAndURLPathShouldBe(java.lang.String,java.lang.String)
+Finance scenario completed: Used Car - Government Sector Eligibility
+>> ExtentReportListener: Finished scenario: Used Car - Government Sector Eligibility <<
+>> WebDriverCleanupListener: Test passed: runScenario <<
+>> WebDriverCleanupListener: WebDriver cleaned up for thread 41 <<
+]]></system-out>
+    <system-err><![CDATA[[TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+[TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Halju\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+Jun 22, 2025 1:13:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 22, 2025 1:13:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.120. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Used Car - Private Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;](7)" classname="runners.FinanceRunner" time="33.185">
+    <system-out><![CDATA[>> WebDriverCleanupListener: Test starting: runScenario <<
+
+@finance @SYT-UC-PVT @finance
+Scenario Outline: Used Car - Private Sector Eligibility                                                                      # src/test/resources/features/FinanceEligibility.feature:67
+>> ExtentReportListener: Started scenario: Used Car - Private Sector Eligibility <<
+****** [DriverManager] Thread 41: Creating new WebDriver instance. ******
+Starting Finance scenario: Used Car - Private Sector Eligibility
+  Given I open the finance eligibility form page                                                                             # steps.FinanceEligibilitySteps.openFormPage()
+Click successful and verified on: By.xpath: //label[contains(.,'Used car')]//input[@type='radio']
+Click successful and verified on: By.xpath: //label[contains(.,'Private sector')]//input[@type='radio']
+  When I select car type as "used" and employment sector as "private"                                                         # steps.FinanceEligibilitySteps.selectCarTypeAndEmploymentSector(java.lang.String,java.lang.String)
+Click successful and verified on: By.xpath: //label[contains(.,'Used car')]//input[@type='radio']
+Click successful and verified on: By.xpath: //label[contains(@class,'flex gap-3')][contains(.,'Yes')]
+  And I set social insurance registration to "yes"                                                                            # steps.FinanceEligibilitySteps.setInsuranceRegistration(java.lang.String)
+Click successful and verified on: By.xpath: //label[contains(.,'Private sector')]//input[@type='radio']
+  When I select car type as "used" and employment sector as "private"                                                        # steps.FinanceEligibilitySteps.selectCarTypeAndEmploymentSector(java.lang.String,java.lang.String)
+Click successful and verified on: By.xpath: //label[contains(@class,'flex gap-3')][contains(.,'No')]
+  And I set social insurance registration to "no"                                                                            # steps.FinanceEligibilitySteps.setInsuranceRegistration(java.lang.String)
+Found 'Continue' button. Attempting robust click.
+Click successful and verified on: By.xpath: //button[contains(text(), 'Continue')]
+  And I enter monthly income as "10000"                                                                                       # steps.FinanceEligibilitySteps.enterIncome(java.lang.String)
+Found 'Continue' button. Attempting robust click.
+Click successful and verified on: By.xpath: //button[contains(text(), 'Continue')]
+  And I enter monthly income as "10000"                                                                                      # steps.FinanceEligibilitySteps.enterIncome(java.lang.String)
+Info: Progress bar value did not increase from 75. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //label[contains(.,'No commitments')]//input
+Found 'Verify' button. Attempting robust click.
+Info: Progress bar value did not increase from 75. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //label[contains(.,'No commitments')]//input
+Found 'Verify' button. Attempting robust click.
+Info: Progress bar value did not increase from 75. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //button[contains(text(), 'Verify')]
+  And I set financial obligations to "no" with amount "0"                                                                     # steps.FinanceEligibilitySteps.setObligations(java.lang.String,java.lang.String)
+  And I enter phone number as "0511111111"                                                                                    # steps.FinanceEligibilitySteps.iEnterPhoneNumberAs(java.lang.String)
+Info: Progress bar value did not increase from 75. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //button[contains(text(), 'Verify')]
+  And I set financial obligations to "no" with amount "0"                                                                    # steps.FinanceEligibilitySteps.setObligations(java.lang.String,java.lang.String)
+  And I enter phone number as "0511111111"                                                                                   # steps.FinanceEligibilitySteps.iEnterPhoneNumberAs(java.lang.String)
+Info: Progress bar value did not increase from 75. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //button[contains(.,'Start now')]
+  And I click on Start Now button                                                                                             # steps.FinanceEligibilitySteps.iClickOnStartNowButton()
+  And I enter OTP as "123456"                                                                                                 # steps.FinanceEligibilitySteps.iEnterOTPAs(java.lang.String)
+Info: Progress bar value did not increase from 75. Assuming no progress change for this action.
+Click successful and verified on: By.xpath: //button[contains(.,'Start now')]
+  And I click on Start Now button                                                                                            # steps.FinanceEligibilitySteps.iClickOnStartNowButton()
+  And I enter OTP as "123456"                                                                                                # steps.FinanceEligibilitySteps.iEnterOTPAs(java.lang.String)
+Actrual tiltle:: You are eligible for financing!
+  Then the eligibility status title should be "You are eligible for financing!" and URL path should be "/finance-eligibility" # steps.FinanceEligibilitySteps.theEligibilityStatusTitleShouldBeAndURLPathShouldBe(java.lang.String,java.lang.String)
+Finance scenario completed: Used Car - Private Sector Eligibility
+>> ExtentReportListener: Finished scenario: Used Car - Private Sector Eligibility <<
+>> WebDriverCleanupListener: Test passed: runScenario <<
+>> WebDriverCleanupListener: WebDriver cleaned up for thread 40 <<
+]]></system-out>
+    <system-err><![CDATA[[TestNG-PoolService-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 137.0.7151.119 (resolved driver for Chrome 137)
+[TestNG-PoolService-1] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Halju\.cache\selenium\chromedriver\win64\137.0.7151.119\chromedriver.exe
+Jun 22, 2025 1:13:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 22, 2025 1:13:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 137.0.7151.120. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Used Car - Private Sector Eligibility&quot;, &quot;Finance Eligibility Application&quot;](8)" classname="runners.FinanceRunner" time="35.36">
+    <system-out><![CDATA[Actrual tiltle:: You may not be eligible for financing
+  Then the eligibility status title should be "You may not be eligible for financing" and URL path should be "/disqualified" # steps.FinanceEligibilitySteps.theEligibilityStatusTitleShouldBeAndURLPathShouldBe(java.lang.String,java.lang.String)
+Finance scenario completed: Used Car - Private Sector Eligibility
+>> ExtentReportListener: Finished scenario: Used Car - Private Sector Eligibility <<
+>> WebDriverCleanupListener: Test passed: runScenario <<
+>> WebDriverCleanupListener: WebDriver cleaned up for thread 41 <<
+]]></system-out>
+  </testcase>
+</testsuite>

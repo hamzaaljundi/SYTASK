@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Two-Phase Test Suite">
+    <listeners>
+        <listener class-name="utils.TestNGConfigListener"/>
+        <listener class-name="utils.WebDriverCleanupListener"/>
+    </listeners>
+    
+    <!-- Phase 1: Run Care Search Prerequisites -->
+    <test name="Phase 1 - Care Search" preserve-order="true" parallel="methods" thread-count="3">
+        <classes>
+            <class name="runners.CareSearchRunner"/>
+        </classes>
+    </test>
+    
+    <!-- Phase 2: Run Finance Scenarios in Parallel -->
+    <test name="Phase 2 - Finance Scenarios" preserve-order="false" parallel="methods" thread-count="2">
+        <classes>
+            <class name="runners.FinanceRunner"/>
+        </classes>
+    </test>
+</suite> 

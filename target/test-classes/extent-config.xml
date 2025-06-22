@@ -1,0 +1,25 @@
+<extentreports>
+  <configuration>
+    <reportName>Automation Report</reportName>
+    <encoding>utf-8</encoding>
+    <protocol>https</protocol>
+    <theme>standard</theme>
+    <documentTitle>Test Automation Report</documentTitle>
+    <timelineEnabled>true</timelineEnabled>
+    <enableOfflineMode>true</enableOfflineMode>
+    <enableTimeline>true</enableTimeline>
+    <enableChart>true</enableChart>
+    <enableExceptionView>true</enableExceptionView>
+    <enableSystemInfo>true</enableSystemInfo>
+    <enableEnvironmentInfo>true</enableEnvironmentInfo>
+    <enableCategoryView>true</enableCategoryView>
+    <enableAuthorView>true</enableAuthorView>
+    <enableDeviceView>true</enableDeviceView>
+    <enableTestRunnerLogs>true</enableTestRunnerLogs>
+    <enableSparkObserver>true</enableSparkObserver>
+    <enableMedia>true</enableMedia>
+    <enableBdd>true</enableBdd>
+    <enableCodeBlock>true</enableCodeBlock>
+    <enableStackTraceFilter>true</enableStackTraceFilter>
+  </configuration>
+</extentreports> 
